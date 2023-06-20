@@ -1,0 +1,9 @@
+History/
+DOC/
+*.pcbdoc_viewstate
+*.pdf
+*.metadata/
+*.bin
+*.BM
+*.dbg
+*.rpt
