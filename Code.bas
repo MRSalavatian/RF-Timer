@@ -42,16 +42,6 @@ Dim Eram_save_id As Eram String * 30
 Save_id = Eram_save_id
 '*****************************
 Print #1 , "Save ID is :" ; Save_id
-
-If Key_learn = 1 Then Print #1 , "key learn on"
-
-For I = 1 To 50
-   Toggle Led_learn
-   Waitms 50
-   Reset Watchdog
-Next I
-Led_learn = 0
-
 Do
 
    If Flag = 1 Then
@@ -100,7 +90,6 @@ Read_rf:
    Remote_data = ""
    Remote_id = ""
    If _in = 1 Then
-      Led_learn = 1
       Do : Loop Until _in = 0
 
       Time_count = 0
