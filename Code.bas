@@ -81,7 +81,7 @@ Do
 Loop
 '*****************************
 Tick:
-   Timer1 = 34288
+   Timer1 = 22335
    Decr Timee
    Tickk = 1
 Return
